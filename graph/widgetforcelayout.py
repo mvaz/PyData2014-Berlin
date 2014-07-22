@@ -7,7 +7,10 @@ def publish_js():
     """ I am following the same scheme as 
     https://github.com/jdfreder/ipython-d3/
     """
-    with open('./widgetforcelayout.js', 'r') as f:
+    import os
+    directory = os.path.dirname(os.path.realpath(__file__))
+
+    with open(os.path.join(directory,'widgetforcelayout.js'), 'r') as f:
         display(Javascript(data=f.read()))
 
 class GraphWidget(widgets.DOMWidget):
