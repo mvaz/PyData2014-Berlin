@@ -2,8 +2,18 @@ from bokeh.plotting import *
 from bokeh.objects import HoverTool, ColumnDataSource
 from bokeh.sampledata.les_mis import data
 
+
 import pandas as pd
 from datetime import datetime
+
+from collections import OrderedDict
+
+import scipy.cluster.hierarchy as sch
+import seaborn as sns
+
+import numpy as np
+
+from IPython.html import widgets
 
 
 class HDFSource(object):
@@ -80,9 +90,85 @@ class CorrelationMatrixSource(HDFSource):
 
 class MatrixPlotter(object):
 	"""docstring for MatrixPlotter"""
-	def __init__(self, arg):
+	def __init__(self, source):
 		super(MatrixPlotter, self).__init__()
-		self.arg = arg
+		self.number_colors = 21
+		self.source = source
+		self.column_source = None
+		self.plot = None
+		self.palette = None
+		self._init_palette()
+
+	def corrplot(self, entities):
+	    figure()
+	    rect('xname', 'yname', 0.9, 0.9, source=self.column_source,
+	         x_range=entities, y_range=list(reversed(entities)),
+	         color='colors', line_color=None,
+	         tools="resize,hover", title="Correlation matrix",
+	         plot_width=500, plot_height=500)
+	    grid().grid_line_color = None
+	    axis().axis_line_color = None
+	    axis().major_tick_line_color = None
+	    axis().major_label_text_font_size = "7pt"
+	    axis().major_label_standoff = 0
+	    
+	    xaxis().location = "top"
+	    xaxis().major_label_orientation = np.pi/3
+	    self.plot = curplot()
+
+	    # hover = [t for t in curplot().tools if isinstance(t, HoverTool)][0]
+	    hover = [t for t in self.plot.tools if isinstance(t, HoverTool)][0]
+	    hover.tooltips = OrderedDict([
+	        ('names', '@yname, @xname'),
+	        ('count', '@values')
+	    ])
+	    return self
+
+	@staticmethod
+	def reorder_dendogram(df):
+		Y = sch.linkage(df.values, method='centroid')
+		Z = sch.dendrogram(Y, orientation='right', no_plot=True)
+		index = Z['leaves']
+		return index
+
+	def _init_palette(self):
+		basis = sns.blend_palette(["seagreen", "ghostwhite", "#4168B7"], self.number_colors)
+		self.palette = ["rgb(%d, %d, %d)" % (r,g,b) for r,g,b, a in np.round(basis * 255)]
 	
-	def show(self):
-		pass
+	def _color(self, value):
+		i = np.round((value + 1.) * (self.number_colors -1) * 0.5)
+		return self.palette[int(i)]
+
+	def to_data_source(self, df):
+		index = self.reorder_dendogram(df)
+		# col = lambda v: self.color(v)
+		print self._color(0.2)
+		_names = df.columns.tolist()
+	    
+		names = [_names[i] for i in index]
+		xnames = []
+		ynames = []
+		values = []
+		colors = []
+		for n in names:
+			xnames.extend([n] * len(names))
+			ynames.extend(names)
+			v = df.loc[n, names].tolist()
+			values.extend(values)
+			colors.extend([ self._color(x) for x in v])
+		# alphas = np.abs(df.values).flatten()
+		self.column_source = ColumnDataSource(
+			data=dict(
+				xname = xnames,
+				yname = ynames,
+				colors= colors,
+				values= values,
+			)
+		)
+		return self, names
+
+	def as_widget(self):
+		bokeh_widget= widgets.HTMLWidget()
+		bokeh_widget.value = notebook_div(self.plot)
+		return bokeh_widget
+
