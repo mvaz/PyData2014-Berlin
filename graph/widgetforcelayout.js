@@ -67,18 +67,21 @@ require(
         },
         
         _update_data: function(new_data) {
-            function empty(a) {
-                while(a.length > 0) { a.pop();};
-            };
-            empty(this.data.links);
-            empty(this.data.nodes);
-            
-            function copy(a_old, a_new) {
-                for (var i=0; i<a_new.length; i++) {a_old[i] = a_new[i];};
-            };
+                function empty(a) {
+                    while(a.length > 0) { a.pop();};
+                };
+                function copy(a_old, a_new) {
+                    for (var i=0; i<a_new.length; i++) {a_old[i] = a_new[i];};
+                };
 
-            copy(this.data.links, new_data.links);
-            copy(this.data.nodes, new_data.nodes);
+            if (!this.has_drawn) {
+                empty(this.data.links);
+                empty(this.data.nodes);
+                
+
+                copy(this.data.links, new_data.links);
+                copy(this.data.nodes, new_data.nodes);
+            };
         },
         
         _update_svg: function() {
@@ -132,7 +135,7 @@ require(
 
                 setTimeout(function() {
                     that.force.start();
-                }, 0.1);
+                }, 0.0);
             }
 //             
 
@@ -156,7 +159,7 @@ require(
                 .style("fill", function(d) {
                     if (d.fill == undefined) {
 //                         return that.color(d.group);
-                        return "blue";
+                        return "steelblue";
                     } else {
                         return d.fill;
                     }
