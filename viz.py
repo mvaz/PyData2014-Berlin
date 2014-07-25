@@ -54,16 +54,18 @@ class CorrelationMatrixSource(HDFSource):
 			[pd.Term('major_axis', '>=', pd.Timestamp(t0)),
 			 pd.Term('major_axis', '<=', pd.Timestamp(t1))] )
 
-	def get_at(self, t):
-		return self.select(self.name, self.get_equal_time_term(t))
+	def get_at(self, t, square=True):
+		df = self.select(self.name, self.get_equal_time_term(t))
+		if square:
+			df = self.make_square(df)
+		return df
 
 	def iterate_time(self, start=None, end=None, square=True):
 		time_axis = self.time_axis(start=start, end=end)
 		time_axis = sorted( time_axis.unique() )
 		for t in time_axis:
-			df = self.get_at(t) #.to_frame() #.reset_index(0, drop=True)
-			if square:
-				df = self.make_square(df)
+			df = self.get_at(t, square=square) #.to_frame() #.reset_index(0, drop=True)
+			# if square: df = self.make_square(df)
 			yield t, df
 
 	def entities(self):

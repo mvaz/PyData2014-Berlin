@@ -93,7 +93,6 @@ require(
             
             var linkDistance = this.model.get("link_distance");
             var charge = this.model.get("charge");
-            console.log(charge);
             this.force.size([width, height])
                       .nodes(this.data.nodes) // initialize with a single node
                       .links(this.data.links) // initialize with a single node
@@ -103,32 +102,40 @@ require(
 
         start: function() {
             console.log("start");
-            
-            this.force.nodes(this.data.nodes).links(this.data.links);
-            
-            var node = this.svg.selectAll(".gnode"),
-                link = this.svg.selectAll(".link");
-            
-            var link = link.data(this.force.links(), function(d) { console.log(d.source); return d.source + "-" + d.target; });
-            this._update_edge(link.enter().insert("line", ".link"))
-            link.exit().remove();
-            
-            var node = node.data(this.force.nodes(), function(d) { return d.id;});
-            node.exit().remove();
+            if (!this.has_drawn) {
+                this.has_drawn = true;
+                this.force.nodes(this.data.nodes).links(this.data.links);
+                
+                var node = this.svg.selectAll(".gnode"),
+                    link = this.svg.selectAll(".link");
+                
+                var link = link.data(this.force.links(), function(d) { return d.source + "-" + d.target; });
+                this._update_edge(link.enter().insert("line", ".link"))
+                link.exit().remove();
+                
+                var node = node.data(this.force.nodes(), function(d) { return d.id;});
+                node.exit().remove();
 
-            var that = this;
+                var that = this;
 
-            var node = node.enter()
-                .append("g")
-                .attr('class', 'gnode');
-            this._update_circle(node.append("circle"));            
-            node.call(that.force.drag);
+                var node = node.enter()
+                    .append("g")
+                    .attr('class', 'gnode')
+                this._update_circle(node.append("circle"));
+                node.on("mouseover", function(d) {console.log(d);that._mouseover(this);})
+                    .on("mouseout", function(d) {console.log(d);that._mouseout(this);});
+                node.call(that.force.drag);
 
-//             this._update_text(node.append("text"));
+                this._update_text(node.append("text"));
 
-            setTimeout(function() {
-                that.force.start();
-            }, 0.1);
+                this.has_drawn = false;
+
+                setTimeout(function() {
+                    that.force.start();
+                }, 0.1);
+            }
+//             
+
         },
         
         
@@ -204,11 +211,55 @@ require(
             var that = this;
             setTimeout(function() {
                 that.start();
-            }, 0.1);
+            }, 0);
 
             return GraphView.__super__.update.apply(that);
         },
-        
+
+        _update_text: function(text) {
+            var that = this;
+
+            text
+                .attr("id", function(d) { return that.guid + d.id + '-text'; })
+                .text(function(d) { 
+                    if (d.id) {
+                        return  d.id;
+                    } else {
+                        return '';
+                    }
+                })
+                .style("font-size",function(d) { 
+                    if (d.font_size) {
+                        return  d.font_size;
+                    } else {
+                        return '10pt';
+                    }
+                })
+                .attr("text-anchor", "middle")
+                .style("fill", function(d) { 
+                    if (d.color) {
+                        return  d.color;
+                    } else {
+                        return 'black';
+                    }
+                })
+                .attr('dx', function(d) { 
+                    if (d.dx) {
+                        return  d.dx;
+                    } else {
+                        return 0;
+                    }
+                })
+                .attr('dy', function(d) { 
+                    if (d.dy) {
+                        return  d.dy;
+                    } else {
+                        return 5;
+                    }
+                })
+                .style("pointer-events", 'none');
+        },
+     
         tick: function() {
             var node = this.svg.selectAll(".gnode"),
                 link = this.svg.selectAll(".link");
@@ -221,7 +272,23 @@ require(
             // Translate the groups
             node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });  
         },
-        
+
+
+        _mouseover: function(node) {
+            console.log("mouseover");
+            d3.select(node).select(".node").transition()
+              .duration(750)
+              .attr("r", 16);
+        },
+ 
+        _mouseout: function (node) {
+                        console.log("mouseout");
+
+          d3.select(node).select(".node").transition()
+              .duration(750)
+              .attr("r", 8);
+        },
+
         value_changed: function() {
             console.log("value_changed");
             var new_data = this.model.get("value");
@@ -232,7 +299,7 @@ require(
                 that._update_data(new_data);
                 that._update_force();
                 that.start();
-            }, 0.1);
+            }, 0.01);
         }
 
     });
