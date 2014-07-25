@@ -62,7 +62,7 @@ class CorrelationMatrixSource(HDFSource):
 
 	def iterate_time(self, start=None, end=None, square=True):
 		time_axis = self.time_axis(start=start, end=end)
-		time_axis = sorted( time_axis.unique() )
+		time_axis = sorted( time_axis)
 		for t in time_axis:
 			df = self.get_at(t, square=square) #.to_frame() #.reset_index(0, drop=True)
 			# if square: df = self.make_square(df)
@@ -77,7 +77,7 @@ class CorrelationMatrixSource(HDFSource):
 			t = t[ t >= start ]
 		if end:
 			t = t[ t <= end ]
-		return t
+		return t.unique()
 
 
 	@classmethod
