@@ -1,5 +1,5 @@
 from IPython.html import widgets
-from IPython.utils.traitlets import Unicode, Dict, Int
+from IPython.utils.traitlets import Unicode, Dict, Int, List
 from IPython.display import display, Javascript
 
 
@@ -22,6 +22,7 @@ class GraphWidget(widgets.DOMWidget):
     height = Int(default_value=600, sync=True)
     charge = Int(default_value=-90, sync=True)
     link_distance = Int(default_value=100, sync=True)
+    color_domain = List(default_value=[], sync=True)
 
     def __init__(self, *pargs, **kwargs):
         widgets.DOMWidget.__init__(self, *pargs, **kwargs)

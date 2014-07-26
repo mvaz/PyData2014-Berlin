@@ -14,6 +14,17 @@ require(
 
             this.number = 0;
 
+            console.log(this.model.get("color_domain"));
+
+            // this.colors = d3.scale.category20();
+            // domain = ['Clothing', 'Insurance', 'Chemicals',
+       // 'Pharmaceuticals and Chemicals', 'Consumer goods', 'Manufacturing',
+       // 'Banking', 'Securities', 'Transport Aviation', 'Communications',
+       // 'Energy', 'Medical', 'Building', 'Industrial gases',
+       // 'Pharmaceuticals', 'IT', 'Industrial, electronics',
+       // 'Industrial, manufacturing']
+            // this.colors.domain(domain);
+
             this.model.on('change:value', this.value_changed, this);
             // this.model.on('change:charge', function(x) {console.log("charge")}, this);
 //             this.model.on('change:link_distance', this.value_changed, this);
@@ -31,6 +42,9 @@ require(
             console.log("render_graph");
             
             this.data = {'links': [], 'nodes': []};
+
+
+            this.color = d3.scale.category20(this.model.get("color_domain"));
             
             // this._update_data( {
             //         "nodes": [
@@ -41,7 +55,6 @@ require(
             //         "links": [
             //             {"source":1,"target":0,"value":10},
             //     ]});
-
             var width = this.model.get("width"),
                 height = this.model.get("height");
 
@@ -147,7 +160,7 @@ require(
 
             circle
                 .attr("id", function(d) { return that.guid + d.id; })
-                .attr("class", function(d) { return "node " + d.id; })
+                .attr("class", function(d) { return "node"; })
                 .attr("r", function(d) {
                     if (d.r == undefined) {
                         return 12; 
@@ -158,8 +171,11 @@ require(
                 })
                 .style("fill", function(d) {
                     if (d.fill == undefined) {
-//                         return that.color(d.group);
-                        return "steelblue";
+                        if (d.group == undefined) {
+                            return "steelblue";
+                        } else {
+                            return that.color(d.group);
+                        }
                     } else {
                         return d.fill;
                     }
@@ -225,8 +241,8 @@ require(
             text
                 .attr("id", function(d) { return that.guid + d.id + '-text'; })
                 .text(function(d) { 
-                    if (d.id) {
-                        return  d.id;
+                    if (d.label) {
+                        return  d.label;
                     } else {
                         return '';
                     }
@@ -235,7 +251,7 @@ require(
                     if (d.font_size) {
                         return  d.font_size;
                     } else {
-                        return '10pt';
+                        return '7pt';
                     }
                 })
                 .attr("text-anchor", "middle")
@@ -282,14 +298,19 @@ require(
             d3.select(node).select(".node").transition()
               .duration(750)
               .attr("r", 16);
+            d3.select(node).select(".node").classed("highlighted");
+            // d3.select("#counties").classed("Blues")
+  // > d3.select("#counties").classed("Blues", false)
+  // > d3.select("#counties").classed("Greens", true)
         },
  
         _mouseout: function (node) {
-                        console.log("mouseout");
+            d3.select(node).select(".node").classed("highlighted", false);
+            console.log("mouseout");
 
-          d3.select(node).select(".node").transition()
-              .duration(750)
-              .attr("r", 8);
+            // d3.select(node).select(".node").transition()
+              // .duration(750)
+              // .attr("r", 8);
         },
 
         value_changed: function() {
