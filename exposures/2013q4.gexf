@@ -1,0 +1,737 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="JP:Japan" label="JP:Japan" />
+      <node id="DK:Denmark" label="DK:Denmark" />
+      <node id="RU:Russia" label="RU:Russia" />
+      <node id="PT:Portugal" label="PT:Portugal" />
+      <node id="NO:Norway" label="NO:Norway" />
+      <node id="CL:Chile" label="CL:Chile" />
+      <node id="FR:France" label="FR:France" />
+      <node id="DE:Germany" label="DE:Germany" />
+      <node id="GB:United Kingdom" label="GB:United Kingdom" />
+      <node id="US:United States" label="US:United States" />
+      <node id="IT:Italy" label="IT:Italy" />
+      <node id="ES:Spain" label="ES:Spain" />
+      <node id="MX:Mexico" label="MX:Mexico" />
+      <node id="AU:Australia" label="AU:Australia" />
+      <node id="GR:Greece" label="GR:Greece" />
+      <node id="CN:China" label="CN:China" />
+      <node id="CA:Canada" label="CA:Canada" />
+      <node id="KY:Cayman Islands" label="KY:Cayman Islands" />
+      <node id="IN:India" label="IN:India" />
+      <node id="NL:Netherlands" label="NL:Netherlands" />
+      <node id="PL:Poland" label="PL:Poland" />
+      <node id="BE:Belgium" label="BE:Belgium" />
+      <node id="FI:Finland" label="FI:Finland" />
+      <node id="LU:Luxembourg" label="LU:Luxembourg" />
+      <node id="SG:Singapore" label="SG:Singapore" />
+      <node id="SE:Sweden" label="SE:Sweden" />
+      <node id="BR:Brazil" label="BR:Brazil" />
+      <node id="KR:South Korea" label="KR:South Korea" />
+      <node id="CZ:Czech Republic" label="CZ:Czech Republic" />
+      <node id="CH:Switzerland" label="CH:Switzerland" />
+      <node id="NZ:New Zealand" label="NZ:New Zealand" />
+      <node id="AT:Austria" label="AT:Austria" />
+      <node id="HK:Hong Kong SAR" label="HK:Hong Kong SAR" />
+      <node id="IE:Ireland" label="IE:Ireland" />
+      <node id="TR:Turkey" label="TR:Turkey" />
+    </nodes>
+    <edges>
+      <edge id="0" source="JP:Japan" target="DK:Denmark" weight="6625.0" />
+      <edge id="1" source="JP:Japan" target="RU:Russia" weight="16128.0" />
+      <edge id="2" source="JP:Japan" target="PT:Portugal" weight="1086.0" />
+      <edge id="3" source="JP:Japan" target="NO:Norway" weight="9696.0" />
+      <edge id="4" source="JP:Japan" target="FR:France" weight="168579.0" />
+      <edge id="5" source="JP:Japan" target="DE:Germany" weight="159019.0" />
+      <edge id="6" source="JP:Japan" target="GB:United Kingdom" weight="179925.0" />
+      <edge id="7" source="JP:Japan" target="US:United States" weight="1283974.0" />
+      <edge id="8" source="JP:Japan" target="IT:Italy" weight="33474.0" />
+      <edge id="9" source="JP:Japan" target="ES:Spain" weight="21230.0" />
+      <edge id="10" source="JP:Japan" target="MX:Mexico" weight="13439.0" />
+      <edge id="11" source="JP:Japan" target="AU:Australia" weight="107198.0" />
+      <edge id="12" source="JP:Japan" target="GR:Greece" weight="100.0" />
+      <edge id="13" source="JP:Japan" target="CN:China" weight="72699.0" />
+      <edge id="14" source="JP:Japan" target="CA:Canada" weight="58120.0" />
+      <edge id="15" source="JP:Japan" target="KY:Cayman Islands" weight="228054.0" />
+      <edge id="16" source="JP:Japan" target="IN:India" weight="24499.0" />
+      <edge id="17" source="JP:Japan" target="NL:Netherlands" weight="77397.0" />
+      <edge id="18" source="JP:Japan" target="PL:Poland" weight="5606.0" />
+      <edge id="19" source="JP:Japan" target="BE:Belgium" weight="20290.0" />
+      <edge id="20" source="JP:Japan" target="FI:Finland" weight="4333.0" />
+      <edge id="21" source="JP:Japan" target="LU:Luxembourg" weight="43014.0" />
+      <edge id="22" source="JP:Japan" target="SG:Singapore" weight="48253.0" />
+      <edge id="23" source="JP:Japan" target="SE:Sweden" weight="21682.0" />
+      <edge id="24" source="JP:Japan" target="BR:Brazil" weight="36999.0" />
+      <edge id="25" source="JP:Japan" target="KR:South Korea" weight="55419.0" />
+      <edge id="26" source="JP:Japan" target="CZ:Czech Republic" weight="784.0" />
+      <edge id="27" source="JP:Japan" target="CH:Switzerland" weight="27601.0" />
+      <edge id="28" source="JP:Japan" target="NZ:New Zealand" weight="7288.0" />
+      <edge id="29" source="JP:Japan" target="AT:Austria" weight="8118.0" />
+      <edge id="30" source="JP:Japan" target="HK:Hong Kong SAR" weight="60576.0" />
+      <edge id="31" source="JP:Japan" target="IE:Ireland" weight="26977.0" />
+      <edge id="32" source="JP:Japan" target="TR:Turkey" weight="10079.0" />
+      <edge id="33" source="PT:Portugal" target="JP:Japan" weight="92.0" />
+      <edge id="34" source="PT:Portugal" target="DK:Denmark" weight="194.0" />
+      <edge id="35" source="PT:Portugal" target="RU:Russia" weight="188.0" />
+      <edge id="36" source="PT:Portugal" target="NO:Norway" weight="31.0" />
+      <edge id="37" source="PT:Portugal" target="FR:France" weight="5686.0" />
+      <edge id="38" source="PT:Portugal" target="DE:Germany" weight="1545.0" />
+      <edge id="39" source="PT:Portugal" target="GB:United Kingdom" weight="3048.0" />
+      <edge id="40" source="PT:Portugal" target="US:United States" weight="4165.0" />
+      <edge id="41" source="PT:Portugal" target="IT:Italy" weight="4247.0" />
+      <edge id="42" source="PT:Portugal" target="ES:Spain" weight="21417.0" />
+      <edge id="43" source="PT:Portugal" target="MX:Mexico" weight="152.0" />
+      <edge id="44" source="PT:Portugal" target="AU:Australia" weight="23.0" />
+      <edge id="45" source="PT:Portugal" target="GR:Greece" weight="364.0" />
+      <edge id="46" source="PT:Portugal" target="CN:China" weight="135.0" />
+      <edge id="47" source="PT:Portugal" target="CA:Canada" weight="213.0" />
+      <edge id="48" source="PT:Portugal" target="KY:Cayman Islands" weight="1447.0" />
+      <edge id="49" source="PT:Portugal" target="IN:India" weight="17.0" />
+      <edge id="50" source="PT:Portugal" target="NL:Netherlands" weight="11499.0" />
+      <edge id="51" source="PT:Portugal" target="PL:Poland" weight="18184.0" />
+      <edge id="52" source="PT:Portugal" target="BE:Belgium" weight="359.0" />
+      <edge id="53" source="PT:Portugal" target="FI:Finland" weight="70.0" />
+      <edge id="54" source="PT:Portugal" target="LU:Luxembourg" weight="4573.0" />
+      <edge id="55" source="PT:Portugal" target="SG:Singapore" weight="17.0" />
+      <edge id="56" source="PT:Portugal" target="SE:Sweden" weight="143.0" />
+      <edge id="57" source="PT:Portugal" target="BR:Brazil" weight="4799.0" />
+      <edge id="58" source="PT:Portugal" target="KR:South Korea" weight="3.0" />
+      <edge id="59" source="PT:Portugal" target="CZ:Czech Republic" weight="18.0" />
+      <edge id="60" source="PT:Portugal" target="CH:Switzerland" weight="1026.0" />
+      <edge id="61" source="PT:Portugal" target="NZ:New Zealand" weight="25.0" />
+      <edge id="62" source="PT:Portugal" target="AT:Austria" weight="48.0" />
+      <edge id="63" source="PT:Portugal" target="HK:Hong Kong SAR" weight="512.0" />
+      <edge id="64" source="PT:Portugal" target="IE:Ireland" weight="2996.0" />
+      <edge id="65" source="PT:Portugal" target="TR:Turkey" weight="62.0" />
+      <edge id="66" source="CL:Chile" target="JP:Japan" weight="69.0" />
+      <edge id="67" source="CL:Chile" target="DK:Denmark" weight="74.0" />
+      <edge id="68" source="CL:Chile" target="RU:Russia" weight="nan" />
+      <edge id="69" source="CL:Chile" target="PT:Portugal" weight="0.0" />
+      <edge id="70" source="CL:Chile" target="NO:Norway" weight="4.0" />
+      <edge id="71" source="CL:Chile" target="FR:France" weight="118.0" />
+      <edge id="72" source="CL:Chile" target="DE:Germany" weight="195.0" />
+      <edge id="73" source="CL:Chile" target="GB:United Kingdom" weight="152.0" />
+      <edge id="74" source="CL:Chile" target="US:United States" weight="2866.0" />
+      <edge id="75" source="CL:Chile" target="IT:Italy" weight="8.0" />
+      <edge id="76" source="CL:Chile" target="ES:Spain" weight="48.0" />
+      <edge id="77" source="CL:Chile" target="MX:Mexico" weight="163.0" />
+      <edge id="78" source="CL:Chile" target="AU:Australia" weight="4.0" />
+      <edge id="79" source="CL:Chile" target="GR:Greece" weight="nan" />
+      <edge id="80" source="CL:Chile" target="CN:China" weight="833.0" />
+      <edge id="81" source="CL:Chile" target="CA:Canada" weight="15.0" />
+      <edge id="82" source="CL:Chile" target="KY:Cayman Islands" weight="5.0" />
+      <edge id="83" source="CL:Chile" target="IN:India" weight="53.0" />
+      <edge id="84" source="CL:Chile" target="NL:Netherlands" weight="6.0" />
+      <edge id="85" source="CL:Chile" target="PL:Poland" weight="nan" />
+      <edge id="86" source="CL:Chile" target="BE:Belgium" weight="142.0" />
+      <edge id="87" source="CL:Chile" target="FI:Finland" weight="2.0" />
+      <edge id="88" source="CL:Chile" target="LU:Luxembourg" weight="nan" />
+      <edge id="89" source="CL:Chile" target="SG:Singapore" weight="7.0" />
+      <edge id="90" source="CL:Chile" target="SE:Sweden" weight="8.0" />
+      <edge id="91" source="CL:Chile" target="BR:Brazil" weight="1813.0" />
+      <edge id="92" source="CL:Chile" target="KR:South Korea" weight="100.0" />
+      <edge id="93" source="CL:Chile" target="CZ:Czech Republic" weight="nan" />
+      <edge id="94" source="CL:Chile" target="CH:Switzerland" weight="24.0" />
+      <edge id="95" source="CL:Chile" target="NZ:New Zealand" weight="nan" />
+      <edge id="96" source="CL:Chile" target="AT:Austria" weight="2.0" />
+      <edge id="97" source="CL:Chile" target="HK:Hong Kong SAR" weight="21.0" />
+      <edge id="98" source="CL:Chile" target="IE:Ireland" weight="nan" />
+      <edge id="99" source="CL:Chile" target="TR:Turkey" weight="52.0" />
+      <edge id="100" source="FR:France" target="JP:Japan" weight="147803.0" />
+      <edge id="101" source="FR:France" target="DK:Denmark" weight="11887.0" />
+      <edge id="102" source="FR:France" target="RU:Russia" weight="49202.0" />
+      <edge id="103" source="FR:France" target="PT:Portugal" weight="15133.0" />
+      <edge id="104" source="FR:France" target="NO:Norway" weight="10464.0" />
+      <edge id="105" source="FR:France" target="IN:India" weight="16301.0" />
+      <edge id="106" source="FR:France" target="DE:Germany" weight="195152.0" />
+      <edge id="107" source="FR:France" target="GB:United Kingdom" weight="231926.0" />
+      <edge id="108" source="FR:France" target="US:United States" weight="577248.0" />
+      <edge id="109" source="FR:France" target="IT:Italy" weight="356546.0" />
+      <edge id="110" source="FR:France" target="ES:Spain" weight="122055.0" />
+      <edge id="111" source="FR:France" target="MX:Mexico" weight="5574.0" />
+      <edge id="112" source="FR:France" target="AU:Australia" weight="22467.0" />
+      <edge id="113" source="FR:France" target="GR:Greece" weight="2241.0" />
+      <edge id="114" source="FR:France" target="CN:China" weight="44995.0" />
+      <edge id="115" source="FR:France" target="CA:Canada" weight="21905.0" />
+      <edge id="116" source="FR:France" target="KY:Cayman Islands" weight="41541.0" />
+      <edge id="117" source="FR:France" target="NL:Netherlands" weight="140806.0" />
+      <edge id="118" source="FR:France" target="PL:Poland" weight="25455.0" />
+      <edge id="119" source="FR:France" target="BE:Belgium" weight="227752.0" />
+      <edge id="120" source="FR:France" target="FI:Finland" weight="8786.0" />
+      <edge id="121" source="FR:France" target="LU:Luxembourg" weight="113262.0" />
+      <edge id="122" source="FR:France" target="SG:Singapore" weight="23118.0" />
+      <edge id="123" source="FR:France" target="SE:Sweden" weight="20753.0" />
+      <edge id="124" source="FR:France" target="BR:Brazil" weight="21691.0" />
+      <edge id="125" source="FR:France" target="KR:South Korea" weight="19405.0" />
+      <edge id="126" source="FR:France" target="CZ:Czech Republic" weight="39275.0" />
+      <edge id="127" source="FR:France" target="CH:Switzerland" weight="67746.0" />
+      <edge id="128" source="FR:France" target="NZ:New Zealand" weight="722.0" />
+      <edge id="129" source="FR:France" target="AT:Austria" weight="16137.0" />
+      <edge id="130" source="FR:France" target="HK:Hong Kong SAR" weight="24973.0" />
+      <edge id="131" source="FR:France" target="IE:Ireland" weight="37032.0" />
+      <edge id="132" source="FR:France" target="TR:Turkey" weight="37576.0" />
+      <edge id="133" source="DE:Germany" target="JP:Japan" weight="43482.0" />
+      <edge id="134" source="DE:Germany" target="DK:Denmark" weight="18800.0" />
+      <edge id="135" source="DE:Germany" target="RU:Russia" weight="19337.0" />
+      <edge id="136" source="DE:Germany" target="PT:Portugal" weight="21536.0" />
+      <edge id="137" source="DE:Germany" target="NO:Norway" weight="21788.0" />
+      <edge id="138" source="DE:Germany" target="FR:France" weight="180360.0" />
+      <edge id="139" source="DE:Germany" target="GB:United Kingdom" weight="396161.0" />
+      <edge id="140" source="DE:Germany" target="US:United States" weight="461485.0" />
+      <edge id="141" source="DE:Germany" target="IT:Italy" weight="132891.0" />
+      <edge id="142" source="DE:Germany" target="ES:Spain" weight="128273.0" />
+      <edge id="143" source="DE:Germany" target="MX:Mexico" weight="3732.0" />
+      <edge id="144" source="DE:Germany" target="AU:Australia" weight="24957.0" />
+      <edge id="145" source="DE:Germany" target="GR:Greece" weight="13557.0" />
+      <edge id="146" source="DE:Germany" target="CN:China" weight="37552.0" />
+      <edge id="147" source="DE:Germany" target="CA:Canada" weight="21092.0" />
+      <edge id="148" source="DE:Germany" target="KY:Cayman Islands" weight="53120.0" />
+      <edge id="149" source="DE:Germany" target="IN:India" weight="20419.0" />
+      <edge id="150" source="DE:Germany" target="NL:Netherlands" weight="108847.0" />
+      <edge id="151" source="DE:Germany" target="PL:Poland" weight="62128.0" />
+      <edge id="152" source="DE:Germany" target="BE:Belgium" weight="29779.0" />
+      <edge id="153" source="DE:Germany" target="FI:Finland" weight="16391.0" />
+      <edge id="154" source="DE:Germany" target="LU:Luxembourg" weight="126803.0" />
+      <edge id="155" source="DE:Germany" target="SG:Singapore" weight="40638.0" />
+      <edge id="156" source="DE:Germany" target="SE:Sweden" weight="32881.0" />
+      <edge id="157" source="DE:Germany" target="BR:Brazil" weight="9208.0" />
+      <edge id="158" source="DE:Germany" target="KR:South Korea" weight="19444.0" />
+      <edge id="159" source="DE:Germany" target="CZ:Czech Republic" weight="9336.0" />
+      <edge id="160" source="DE:Germany" target="CH:Switzerland" weight="53747.0" />
+      <edge id="161" source="DE:Germany" target="NZ:New Zealand" weight="2095.0" />
+      <edge id="162" source="DE:Germany" target="AT:Austria" weight="73420.0" />
+      <edge id="163" source="DE:Germany" target="HK:Hong Kong SAR" weight="13165.0" />
+      <edge id="164" source="DE:Germany" target="IE:Ireland" weight="42216.0" />
+      <edge id="165" source="DE:Germany" target="TR:Turkey" weight="13497.0" />
+      <edge id="166" source="GB:United Kingdom" target="JP:Japan" weight="112161.0" />
+      <edge id="167" source="GB:United Kingdom" target="DK:Denmark" weight="9471.0" />
+      <edge id="168" source="GB:United Kingdom" target="RU:Russia" weight="17100.0" />
+      <edge id="169" source="GB:United Kingdom" target="PT:Portugal" weight="15940.0" />
+      <edge id="170" source="GB:United Kingdom" target="NO:Norway" weight="10294.0" />
+      <edge id="171" source="GB:United Kingdom" target="FR:France" weight="216717.0" />
+      <edge id="172" source="GB:United Kingdom" target="DE:Germany" weight="186023.0" />
+      <edge id="173" source="GB:United Kingdom" target="US:United States" weight="962070.0" />
+      <edge id="174" source="GB:United Kingdom" target="IT:Italy" weight="47921.0" />
+      <edge id="175" source="GB:United Kingdom" target="ES:Spain" weight="78776.0" />
+      <edge id="176" source="GB:United Kingdom" target="MX:Mexico" weight="43022.0" />
+      <edge id="177" source="GB:United Kingdom" target="AU:Australia" weight="60663.0" />
+      <edge id="178" source="GB:United Kingdom" target="GR:Greece" weight="14328.0" />
+      <edge id="179" source="GB:United Kingdom" target="CN:China" weight="200007.0" />
+      <edge id="180" source="GB:United Kingdom" target="CA:Canada" weight="98393.0" />
+      <edge id="181" source="GB:United Kingdom" target="KY:Cayman Islands" weight="40647.0" />
+      <edge id="182" source="GB:United Kingdom" target="IN:India" weight="79729.0" />
+      <edge id="183" source="GB:United Kingdom" target="NL:Netherlands" weight="108650.0" />
+      <edge id="184" source="GB:United Kingdom" target="PL:Poland" weight="8211.0" />
+      <edge id="185" source="GB:United Kingdom" target="BE:Belgium" weight="14917.0" />
+      <edge id="186" source="GB:United Kingdom" target="FI:Finland" weight="11851.0" />
+      <edge id="187" source="GB:United Kingdom" target="LU:Luxembourg" weight="30377.0" />
+      <edge id="188" source="GB:United Kingdom" target="SG:Singapore" weight="106179.0" />
+      <edge id="189" source="GB:United Kingdom" target="SE:Sweden" weight="14254.0" />
+      <edge id="190" source="GB:United Kingdom" target="BR:Brazil" weight="74057.0" />
+      <edge id="191" source="GB:United Kingdom" target="KR:South Korea" weight="74950.0" />
+      <edge id="192" source="GB:United Kingdom" target="CZ:Czech Republic" weight="4843.0" />
+      <edge id="193" source="GB:United Kingdom" target="CH:Switzerland" weight="82194.0" />
+      <edge id="194" source="GB:United Kingdom" target="NZ:New Zealand" weight="5271.0" />
+      <edge id="195" source="GB:United Kingdom" target="AT:Austria" weight="7446.0" />
+      <edge id="196" source="GB:United Kingdom" target="HK:Hong Kong SAR" weight="335185.0" />
+      <edge id="197" source="GB:United Kingdom" target="IE:Ireland" weight="126829.0" />
+      <edge id="198" source="GB:United Kingdom" target="TR:Turkey" weight="36909.0" />
+      <edge id="199" source="US:United States" target="JP:Japan" weight="305601.0" />
+      <edge id="200" source="US:United States" target="DK:Denmark" weight="10995.0" />
+      <edge id="201" source="US:United States" target="RU:Russia" weight="32364.0" />
+      <edge id="202" source="US:United States" target="PT:Portugal" weight="4091.0" />
+      <edge id="203" source="US:United States" target="NO:Norway" weight="12420.0" />
+      <edge id="204" source="US:United States" target="FR:France" weight="182385.0" />
+      <edge id="205" source="US:United States" target="DE:Germany" weight="157108.0" />
+      <edge id="206" source="US:United States" target="GB:United Kingdom" weight="479906.0" />
+      <edge id="207" source="US:United States" target="IT:Italy" weight="45282.0" />
+      <edge id="208" source="US:United States" target="ES:Spain" weight="59507.0" />
+      <edge id="209" source="US:United States" target="MX:Mexico" weight="116117.0" />
+      <edge id="210" source="US:United States" target="AU:Australia" weight="96882.0" />
+      <edge id="211" source="US:United States" target="GR:Greece" weight="9548.0" />
+      <edge id="212" source="US:United States" target="CN:China" weight="83314.0" />
+      <edge id="213" source="US:United States" target="CA:Canada" weight="109992.0" />
+      <edge id="214" source="US:United States" target="KY:Cayman Islands" weight="236795.0" />
+      <edge id="215" source="US:United States" target="IN:India" weight="65608.0" />
+      <edge id="216" source="US:United States" target="NL:Netherlands" weight="100694.0" />
+      <edge id="217" source="US:United States" target="PL:Poland" weight="14483.0" />
+      <edge id="218" source="US:United States" target="BE:Belgium" weight="19133.0" />
+      <edge id="219" source="US:United States" target="FI:Finland" weight="9705.0" />
+      <edge id="220" source="US:United States" target="LU:Luxembourg" weight="37912.0" />
+      <edge id="221" source="US:United States" target="SG:Singapore" weight="58265.0" />
+      <edge id="222" source="US:United States" target="SE:Sweden" weight="22519.0" />
+      <edge id="223" source="US:United States" target="BR:Brazil" weight="76789.0" />
+      <edge id="224" source="US:United States" target="KR:South Korea" weight="80063.0" />
+      <edge id="225" source="US:United States" target="CZ:Czech Republic" weight="4959.0" />
+      <edge id="226" source="US:United States" target="CH:Switzerland" weight="64409.0" />
+      <edge id="227" source="US:United States" target="NZ:New Zealand" weight="4584.0" />
+      <edge id="228" source="US:United States" target="AT:Austria" weight="10996.0" />
+      <edge id="229" source="US:United States" target="HK:Hong Kong SAR" weight="52650.0" />
+      <edge id="230" source="US:United States" target="IE:Ireland" weight="50852.0" />
+      <edge id="231" source="US:United States" target="TR:Turkey" weight="26846.0" />
+      <edge id="232" source="IT:Italy" target="JP:Japan" weight="4330.0" />
+      <edge id="233" source="IT:Italy" target="DK:Denmark" weight="2252.0" />
+      <edge id="234" source="IT:Italy" target="RU:Russia" weight="29204.0" />
+      <edge id="235" source="IT:Italy" target="PT:Portugal" weight="1825.0" />
+      <edge id="236" source="IT:Italy" target="NO:Norway" weight="2381.0" />
+      <edge id="237" source="IT:Italy" target="FR:France" weight="36385.0" />
+      <edge id="238" source="IT:Italy" target="DE:Germany" weight="232591.0" />
+      <edge id="239" source="IT:Italy" target="GB:United Kingdom" weight="47108.0" />
+      <edge id="240" source="IT:Italy" target="US:United States" weight="34298.0" />
+      <edge id="241" source="IT:Italy" target="ES:Spain" weight="20754.0" />
+      <edge id="242" source="IT:Italy" target="MX:Mexico" weight="541.0" />
+      <edge id="243" source="IT:Italy" target="AU:Australia" weight="1688.0" />
+      <edge id="244" source="IT:Italy" target="GR:Greece" weight="1483.0" />
+      <edge id="245" source="IT:Italy" target="CN:China" weight="7839.0" />
+      <edge id="246" source="IT:Italy" target="CA:Canada" weight="2951.0" />
+      <edge id="247" source="IT:Italy" target="KY:Cayman Islands" weight="3229.0" />
+      <edge id="248" source="IT:Italy" target="IN:India" weight="2285.0" />
+      <edge id="249" source="IT:Italy" target="NL:Netherlands" weight="18117.0" />
+      <edge id="250" source="IT:Italy" target="PL:Poland" weight="51770.0" />
+      <edge id="251" source="IT:Italy" target="BE:Belgium" weight="4663.0" />
+      <edge id="252" source="IT:Italy" target="FI:Finland" weight="1052.0" />
+      <edge id="253" source="IT:Italy" target="LU:Luxembourg" weight="25026.0" />
+      <edge id="254" source="IT:Italy" target="SG:Singapore" weight="1278.0" />
+      <edge id="255" source="IT:Italy" target="SE:Sweden" weight="2311.0" />
+      <edge id="256" source="IT:Italy" target="BR:Brazil" weight="1983.0" />
+      <edge id="257" source="IT:Italy" target="KR:South Korea" weight="503.0" />
+      <edge id="258" source="IT:Italy" target="CZ:Czech Republic" weight="19545.0" />
+      <edge id="259" source="IT:Italy" target="CH:Switzerland" weight="9955.0" />
+      <edge id="260" source="IT:Italy" target="NZ:New Zealand" weight="70.0" />
+      <edge id="261" source="IT:Italy" target="AT:Austria" weight="99968.0" />
+      <edge id="262" source="IT:Italy" target="HK:Hong Kong SAR" weight="981.0" />
+      <edge id="263" source="IT:Italy" target="IE:Ireland" weight="9563.0" />
+      <edge id="264" source="IT:Italy" target="TR:Turkey" weight="7574.0" />
+      <edge id="265" source="ES:Spain" target="JP:Japan" weight="7641.0" />
+      <edge id="266" source="ES:Spain" target="DK:Denmark" weight="4819.0" />
+      <edge id="267" source="ES:Spain" target="RU:Russia" weight="1290.0" />
+      <edge id="268" source="ES:Spain" target="PT:Portugal" weight="70660.0" />
+      <edge id="269" source="ES:Spain" target="NO:Norway" weight="7185.0" />
+      <edge id="270" source="ES:Spain" target="FR:France" weight="31543.0" />
+      <edge id="271" source="ES:Spain" target="DE:Germany" weight="58381.0" />
+      <edge id="272" source="ES:Spain" target="GB:United Kingdom" weight="395131.0" />
+      <edge id="273" source="ES:Spain" target="US:United States" weight="215084.0" />
+      <edge id="274" source="ES:Spain" target="IT:Italy" weight="29626.0" />
+      <edge id="275" source="ES:Spain" target="MX:Mexico" weight="157941.0" />
+      <edge id="276" source="ES:Spain" target="AU:Australia" weight="1934.0" />
+      <edge id="277" source="ES:Spain" target="GR:Greece" weight="644.0" />
+      <edge id="278" source="ES:Spain" target="CN:China" weight="8965.0" />
+      <edge id="279" source="ES:Spain" target="CA:Canada" weight="1912.0" />
+      <edge id="280" source="ES:Spain" target="KY:Cayman Islands" weight="1634.0" />
+      <edge id="281" source="ES:Spain" target="IN:India" weight="146.0" />
+      <edge id="282" source="ES:Spain" target="NL:Netherlands" weight="18628.0" />
+      <edge id="283" source="ES:Spain" target="PL:Poland" weight="39655.0" />
+      <edge id="284" source="ES:Spain" target="BE:Belgium" weight="3845.0" />
+      <edge id="285" source="ES:Spain" target="FI:Finland" weight="3094.0" />
+      <edge id="286" source="ES:Spain" target="LU:Luxembourg" weight="5714.0" />
+      <edge id="287" source="ES:Spain" target="SG:Singapore" weight="494.0" />
+      <edge id="288" source="ES:Spain" target="SE:Sweden" weight="2907.0" />
+      <edge id="289" source="ES:Spain" target="BR:Brazil" weight="160344.0" />
+      <edge id="290" source="ES:Spain" target="KR:South Korea" weight="966.0" />
+      <edge id="291" source="ES:Spain" target="CZ:Czech Republic" weight="162.0" />
+      <edge id="292" source="ES:Spain" target="CH:Switzerland" weight="7608.0" />
+      <edge id="293" source="ES:Spain" target="NZ:New Zealand" weight="96.0" />
+      <edge id="294" source="ES:Spain" target="AT:Austria" weight="4926.0" />
+      <edge id="295" source="ES:Spain" target="HK:Hong Kong SAR" weight="5154.0" />
+      <edge id="296" source="ES:Spain" target="IE:Ireland" weight="5546.0" />
+      <edge id="297" source="ES:Spain" target="TR:Turkey" weight="21733.0" />
+      <edge id="298" source="AU:Australia" target="JP:Japan" weight="20653.0" />
+      <edge id="299" source="AU:Australia" target="DK:Denmark" weight="1441.0" />
+      <edge id="300" source="AU:Australia" target="RU:Russia" weight="105.0" />
+      <edge id="301" source="AU:Australia" target="PT:Portugal" weight="51.0" />
+      <edge id="302" source="AU:Australia" target="NO:Norway" weight="1336.0" />
+      <edge id="303" source="AU:Australia" target="FR:France" weight="7618.0" />
+      <edge id="304" source="AU:Australia" target="DE:Germany" weight="16954.0" />
+      <edge id="305" source="AU:Australia" target="GB:United Kingdom" weight="129056.0" />
+      <edge id="306" source="AU:Australia" target="US:United States" weight="104974.0" />
+      <edge id="307" source="AU:Australia" target="IT:Italy" weight="677.0" />
+      <edge id="308" source="AU:Australia" target="ES:Spain" weight="996.0" />
+      <edge id="309" source="AU:Australia" target="MX:Mexico" weight="483.0" />
+      <edge id="310" source="AU:Australia" target="GR:Greece" weight="11.0" />
+      <edge id="311" source="AU:Australia" target="CN:China" weight="34615.0" />
+      <edge id="312" source="AU:Australia" target="CA:Canada" weight="14782.0" />
+      <edge id="313" source="AU:Australia" target="KY:Cayman Islands" weight="1363.0" />
+      <edge id="314" source="AU:Australia" target="IN:India" weight="7421.0" />
+      <edge id="315" source="AU:Australia" target="NL:Netherlands" weight="10310.0" />
+      <edge id="316" source="AU:Australia" target="PL:Poland" weight="23.0" />
+      <edge id="317" source="AU:Australia" target="BE:Belgium" weight="273.0" />
+      <edge id="318" source="AU:Australia" target="FI:Finland" weight="746.0" />
+      <edge id="319" source="AU:Australia" target="LU:Luxembourg" weight="1479.0" />
+      <edge id="320" source="AU:Australia" target="SG:Singapore" weight="26759.0" />
+      <edge id="321" source="AU:Australia" target="SE:Sweden" weight="2163.0" />
+      <edge id="322" source="AU:Australia" target="BR:Brazil" weight="983.0" />
+      <edge id="323" source="AU:Australia" target="KR:South Korea" weight="4379.0" />
+      <edge id="324" source="AU:Australia" target="CZ:Czech Republic" weight="18.0" />
+      <edge id="325" source="AU:Australia" target="CH:Switzerland" weight="4717.0" />
+      <edge id="326" source="AU:Australia" target="NZ:New Zealand" weight="281429.0" />
+      <edge id="327" source="AU:Australia" target="AT:Austria" weight="84.0" />
+      <edge id="328" source="AU:Australia" target="HK:Hong Kong SAR" weight="13590.0" />
+      <edge id="329" source="AU:Australia" target="IE:Ireland" weight="1107.0" />
+      <edge id="330" source="AU:Australia" target="TR:Turkey" weight="379.0" />
+      <edge id="331" source="GR:Greece" target="JP:Japan" weight="40.0" />
+      <edge id="332" source="GR:Greece" target="DK:Denmark" weight="187.0" />
+      <edge id="333" source="GR:Greece" target="RU:Russia" weight="406.0" />
+      <edge id="334" source="GR:Greece" target="PT:Portugal" weight="43.0" />
+      <edge id="335" source="GR:Greece" target="NO:Norway" weight="30.0" />
+      <edge id="336" source="GR:Greece" target="FR:France" weight="1494.0" />
+      <edge id="337" source="GR:Greece" target="DE:Germany" weight="2253.0" />
+      <edge id="338" source="GR:Greece" target="GB:United Kingdom" weight="10043.0" />
+      <edge id="339" source="GR:Greece" target="US:United States" weight="2243.0" />
+      <edge id="340" source="GR:Greece" target="IT:Italy" weight="446.0" />
+      <edge id="341" source="GR:Greece" target="ES:Spain" weight="219.0" />
+      <edge id="342" source="GR:Greece" target="MX:Mexico" weight="0.0" />
+      <edge id="343" source="GR:Greece" target="AU:Australia" weight="60.0" />
+      <edge id="344" source="GR:Greece" target="CN:China" weight="85.0" />
+      <edge id="345" source="GR:Greece" target="CA:Canada" weight="44.0" />
+      <edge id="346" source="GR:Greece" target="KY:Cayman Islands" weight="400.0" />
+      <edge id="347" source="GR:Greece" target="IN:India" weight="2.0" />
+      <edge id="348" source="GR:Greece" target="NL:Netherlands" weight="480.0" />
+      <edge id="349" source="GR:Greece" target="PL:Poland" weight="361.0" />
+      <edge id="350" source="GR:Greece" target="BE:Belgium" weight="340.0" />
+      <edge id="351" source="GR:Greece" target="FI:Finland" weight="12.0" />
+      <edge id="352" source="GR:Greece" target="LU:Luxembourg" weight="1201.0" />
+      <edge id="353" source="GR:Greece" target="SG:Singapore" weight="4.0" />
+      <edge id="354" source="GR:Greece" target="SE:Sweden" weight="80.0" />
+      <edge id="355" source="GR:Greece" target="BR:Brazil" weight="0.0" />
+      <edge id="356" source="GR:Greece" target="KR:South Korea" weight="1.0" />
+      <edge id="357" source="GR:Greece" target="CZ:Czech Republic" weight="8.0" />
+      <edge id="358" source="GR:Greece" target="CH:Switzerland" weight="584.0" />
+      <edge id="359" source="GR:Greece" target="NZ:New Zealand" weight="7.0" />
+      <edge id="360" source="GR:Greece" target="AT:Austria" weight="637.0" />
+      <edge id="361" source="GR:Greece" target="HK:Hong Kong SAR" weight="296.0" />
+      <edge id="362" source="GR:Greece" target="IE:Ireland" weight="354.0" />
+      <edge id="363" source="GR:Greece" target="TR:Turkey" weight="30204.0" />
+      <edge id="364" source="CA:Canada" target="JP:Japan" weight="21796.0" />
+      <edge id="365" source="CA:Canada" target="DK:Denmark" weight="1367.0" />
+      <edge id="366" source="CA:Canada" target="RU:Russia" weight="1128.0" />
+      <edge id="367" source="CA:Canada" target="PT:Portugal" weight="nan" />
+      <edge id="368" source="CA:Canada" target="NO:Norway" weight="4458.0" />
+      <edge id="369" source="CA:Canada" target="FR:France" weight="18440.0" />
+      <edge id="370" source="CA:Canada" target="DE:Germany" weight="15812.0" />
+      <edge id="371" source="CA:Canada" target="GB:United Kingdom" weight="114781.0" />
+      <edge id="372" source="CA:Canada" target="US:United States" weight="727719.0" />
+      <edge id="373" source="CA:Canada" target="IT:Italy" weight="2005.0" />
+      <edge id="374" source="CA:Canada" target="ES:Spain" weight="852.0" />
+      <edge id="375" source="CA:Canada" target="MX:Mexico" weight="nan" />
+      <edge id="376" source="CA:Canada" target="AU:Australia" weight="24255.0" />
+      <edge id="377" source="CA:Canada" target="GR:Greece" weight="nan" />
+      <edge id="378" source="CA:Canada" target="CN:China" weight="16377.0" />
+      <edge id="379" source="CA:Canada" target="KY:Cayman Islands" weight="9429.0" />
+      <edge id="380" source="CA:Canada" target="IN:India" weight="4396.0" />
+      <edge id="381" source="CA:Canada" target="NL:Netherlands" weight="11028.0" />
+      <edge id="382" source="CA:Canada" target="PL:Poland" weight="nan" />
+      <edge id="383" source="CA:Canada" target="BE:Belgium" weight="633.0" />
+      <edge id="384" source="CA:Canada" target="FI:Finland" weight="1543.0" />
+      <edge id="385" source="CA:Canada" target="LU:Luxembourg" weight="3982.0" />
+      <edge id="386" source="CA:Canada" target="SG:Singapore" weight="nan" />
+      <edge id="387" source="CA:Canada" target="SE:Sweden" weight="3937.0" />
+      <edge id="388" source="CA:Canada" target="BR:Brazil" weight="nan" />
+      <edge id="389" source="CA:Canada" target="KR:South Korea" weight="4829.0" />
+      <edge id="390" source="CA:Canada" target="CZ:Czech Republic" weight="nan" />
+      <edge id="391" source="CA:Canada" target="CH:Switzerland" weight="4026.0" />
+      <edge id="392" source="CA:Canada" target="NZ:New Zealand" weight="638.0" />
+      <edge id="393" source="CA:Canada" target="AT:Austria" weight="362.0" />
+      <edge id="394" source="CA:Canada" target="HK:Hong Kong SAR" weight="5969.0" />
+      <edge id="395" source="CA:Canada" target="IE:Ireland" weight="2236.0" />
+      <edge id="396" source="CA:Canada" target="TR:Turkey" weight="3172.0" />
+      <edge id="397" source="IN:India" target="JP:Japan" weight="453.0" />
+      <edge id="398" source="IN:India" target="DK:Denmark" weight="33.0" />
+      <edge id="399" source="IN:India" target="RU:Russia" weight="837.0" />
+      <edge id="400" source="IN:India" target="PT:Portugal" weight="31.0" />
+      <edge id="401" source="IN:India" target="NO:Norway" weight="4.0" />
+      <edge id="402" source="IN:India" target="FR:France" weight="527.0" />
+      <edge id="403" source="IN:India" target="DE:Germany" weight="1934.0" />
+      <edge id="404" source="IN:India" target="GB:United Kingdom" weight="5885.0" />
+      <edge id="405" source="IN:India" target="US:United States" weight="8924.0" />
+      <edge id="406" source="IN:India" target="IT:Italy" weight="261.0" />
+      <edge id="407" source="IN:India" target="ES:Spain" weight="96.0" />
+      <edge id="408" source="IN:India" target="MX:Mexico" weight="72.0" />
+      <edge id="409" source="IN:India" target="AU:Australia" weight="1153.0" />
+      <edge id="410" source="IN:India" target="GR:Greece" weight="6.0" />
+      <edge id="411" source="IN:India" target="CN:China" weight="1109.0" />
+      <edge id="412" source="IN:India" target="CA:Canada" weight="2919.0" />
+      <edge id="413" source="IN:India" target="KY:Cayman Islands" weight="493.0" />
+      <edge id="414" source="IN:India" target="NL:Netherlands" weight="1400.0" />
+      <edge id="415" source="IN:India" target="PL:Poland" weight="49.0" />
+      <edge id="416" source="IN:India" target="BE:Belgium" weight="1067.0" />
+      <edge id="417" source="IN:India" target="FI:Finland" weight="18.0" />
+      <edge id="418" source="IN:India" target="LU:Luxembourg" weight="6.0" />
+      <edge id="419" source="IN:India" target="SG:Singapore" weight="4028.0" />
+      <edge id="420" source="IN:India" target="SE:Sweden" weight="103.0" />
+      <edge id="421" source="IN:India" target="BR:Brazil" weight="104.0" />
+      <edge id="422" source="IN:India" target="KR:South Korea" weight="165.0" />
+      <edge id="423" source="IN:India" target="CZ:Czech Republic" weight="6.0" />
+      <edge id="424" source="IN:India" target="CH:Switzerland" weight="816.0" />
+      <edge id="425" source="IN:India" target="NZ:New Zealand" weight="42.0" />
+      <edge id="426" source="IN:India" target="AT:Austria" weight="47.0" />
+      <edge id="427" source="IN:India" target="HK:Hong Kong SAR" weight="3448.0" />
+      <edge id="428" source="IN:India" target="IE:Ireland" weight="120.0" />
+      <edge id="429" source="IN:India" target="TR:Turkey" weight="158.0" />
+      <edge id="430" source="NL:Netherlands" target="JP:Japan" weight="8826.0" />
+      <edge id="431" source="NL:Netherlands" target="DK:Denmark" weight="6802.0" />
+      <edge id="432" source="NL:Netherlands" target="RU:Russia" weight="17207.0" />
+      <edge id="433" source="NL:Netherlands" target="PT:Portugal" weight="5476.0" />
+      <edge id="434" source="NL:Netherlands" target="NO:Norway" weight="6758.0" />
+      <edge id="435" source="NL:Netherlands" target="FR:France" weight="87616.0" />
+      <edge id="436" source="NL:Netherlands" target="DE:Germany" weight="196323.0" />
+      <edge id="437" source="NL:Netherlands" target="GB:United Kingdom" weight="113094.0" />
+      <edge id="438" source="NL:Netherlands" target="US:United States" weight="182291.0" />
+      <edge id="439" source="NL:Netherlands" target="IT:Italy" weight="34651.0" />
+      <edge id="440" source="NL:Netherlands" target="ES:Spain" weight="50598.0" />
+      <edge id="441" source="NL:Netherlands" target="MX:Mexico" weight="2571.0" />
+      <edge id="442" source="NL:Netherlands" target="AU:Australia" weight="70040.0" />
+      <edge id="443" source="NL:Netherlands" target="GR:Greece" weight="1578.0" />
+      <edge id="444" source="NL:Netherlands" target="CN:China" weight="21527.0" />
+      <edge id="445" source="NL:Netherlands" target="CA:Canada" weight="12503.0" />
+      <edge id="446" source="NL:Netherlands" target="KY:Cayman Islands" weight="6621.0" />
+      <edge id="447" source="NL:Netherlands" target="IN:India" weight="12980.0" />
+      <edge id="448" source="NL:Netherlands" target="PL:Poland" weight="42296.0" />
+      <edge id="449" source="NL:Netherlands" target="BE:Belgium" weight="133011.0" />
+      <edge id="450" source="NL:Netherlands" target="FI:Finland" weight="6541.0" />
+      <edge id="451" source="NL:Netherlands" target="LU:Luxembourg" weight="20782.0" />
+      <edge id="452" source="NL:Netherlands" target="SG:Singapore" weight="18628.0" />
+      <edge id="453" source="NL:Netherlands" target="SE:Sweden" weight="7738.0" />
+      <edge id="454" source="NL:Netherlands" target="BR:Brazil" weight="14661.0" />
+      <edge id="455" source="NL:Netherlands" target="KR:South Korea" weight="6229.0" />
+      <edge id="456" source="NL:Netherlands" target="CZ:Czech Republic" weight="4011.0" />
+      <edge id="457" source="NL:Netherlands" target="CH:Switzerland" weight="20748.0" />
+      <edge id="458" source="NL:Netherlands" target="NZ:New Zealand" weight="9462.0" />
+      <edge id="459" source="NL:Netherlands" target="AT:Austria" weight="11346.0" />
+      <edge id="460" source="NL:Netherlands" target="HK:Hong Kong SAR" weight="13276.0" />
+      <edge id="461" source="NL:Netherlands" target="IE:Ireland" weight="12423.0" />
+      <edge id="462" source="NL:Netherlands" target="TR:Turkey" weight="23196.0" />
+      <edge id="463" source="BE:Belgium" target="JP:Japan" weight="756.0" />
+      <edge id="464" source="BE:Belgium" target="DK:Denmark" weight="217.0" />
+      <edge id="465" source="BE:Belgium" target="RU:Russia" weight="505.0" />
+      <edge id="466" source="BE:Belgium" target="PT:Portugal" weight="431.0" />
+      <edge id="467" source="BE:Belgium" target="NO:Norway" weight="184.0" />
+      <edge id="468" source="BE:Belgium" target="FR:France" weight="22196.0" />
+      <edge id="469" source="BE:Belgium" target="DE:Germany" weight="11253.0" />
+      <edge id="470" source="BE:Belgium" target="GB:United Kingdom" weight="19756.0" />
+      <edge id="471" source="BE:Belgium" target="US:United States" weight="14054.0" />
+      <edge id="472" source="BE:Belgium" target="IT:Italy" weight="9965.0" />
+      <edge id="473" source="BE:Belgium" target="ES:Spain" weight="10871.0" />
+      <edge id="474" source="BE:Belgium" target="MX:Mexico" weight="165.0" />
+      <edge id="475" source="BE:Belgium" target="AU:Australia" weight="1360.0" />
+      <edge id="476" source="BE:Belgium" target="GR:Greece" weight="38.0" />
+      <edge id="477" source="BE:Belgium" target="CN:China" weight="2000.0" />
+      <edge id="478" source="BE:Belgium" target="CA:Canada" weight="895.0" />
+      <edge id="479" source="BE:Belgium" target="KY:Cayman Islands" weight="1152.0" />
+      <edge id="480" source="BE:Belgium" target="IN:India" weight="348.0" />
+      <edge id="481" source="BE:Belgium" target="NL:Netherlands" weight="25320.0" />
+      <edge id="482" source="BE:Belgium" target="PL:Poland" weight="2083.0" />
+      <edge id="483" source="BE:Belgium" target="FI:Finland" weight="504.0" />
+      <edge id="484" source="BE:Belgium" target="LU:Luxembourg" weight="5432.0" />
+      <edge id="485" source="BE:Belgium" target="SG:Singapore" weight="463.0" />
+      <edge id="486" source="BE:Belgium" target="SE:Sweden" weight="519.0" />
+      <edge id="487" source="BE:Belgium" target="BR:Brazil" weight="40.0" />
+      <edge id="488" source="BE:Belgium" target="KR:South Korea" weight="322.0" />
+      <edge id="489" source="BE:Belgium" target="CZ:Czech Republic" weight="49197.0" />
+      <edge id="490" source="BE:Belgium" target="CH:Switzerland" weight="576.0" />
+      <edge id="491" source="BE:Belgium" target="NZ:New Zealand" weight="55.0" />
+      <edge id="492" source="BE:Belgium" target="AT:Austria" weight="1629.0" />
+      <edge id="493" source="BE:Belgium" target="HK:Hong Kong SAR" weight="754.0" />
+      <edge id="494" source="BE:Belgium" target="IE:Ireland" weight="18742.0" />
+      <edge id="495" source="BE:Belgium" target="TR:Turkey" weight="1173.0" />
+      <edge id="496" source="FI:Finland" target="JP:Japan" weight="28.0" />
+      <edge id="497" source="FI:Finland" target="DK:Denmark" weight="714.0" />
+      <edge id="498" source="FI:Finland" target="RU:Russia" weight="nan" />
+      <edge id="499" source="FI:Finland" target="PT:Portugal" weight="nan" />
+      <edge id="500" source="FI:Finland" target="NO:Norway" weight="1867.0" />
+      <edge id="501" source="FI:Finland" target="FR:France" weight="3181.0" />
+      <edge id="502" source="FI:Finland" target="DE:Germany" weight="3193.0" />
+      <edge id="503" source="FI:Finland" target="GB:United Kingdom" weight="2077.0" />
+      <edge id="504" source="FI:Finland" target="US:United States" weight="466.0" />
+      <edge id="505" source="FI:Finland" target="IT:Italy" weight="402.0" />
+      <edge id="506" source="FI:Finland" target="ES:Spain" weight="370.0" />
+      <edge id="507" source="FI:Finland" target="MX:Mexico" weight="nan" />
+      <edge id="508" source="FI:Finland" target="AU:Australia" weight="399.0" />
+      <edge id="509" source="FI:Finland" target="GR:Greece" weight="nan" />
+      <edge id="510" source="FI:Finland" target="CN:China" weight="nan" />
+      <edge id="511" source="FI:Finland" target="CA:Canada" weight="593.0" />
+      <edge id="512" source="FI:Finland" target="KY:Cayman Islands" weight="0.0" />
+      <edge id="513" source="FI:Finland" target="IN:India" weight="nan" />
+      <edge id="514" source="FI:Finland" target="NL:Netherlands" weight="2188.0" />
+      <edge id="515" source="FI:Finland" target="PL:Poland" weight="nan" />
+      <edge id="516" source="FI:Finland" target="BE:Belgium" weight="1315.0" />
+      <edge id="517" source="FI:Finland" target="LU:Luxembourg" weight="91.0" />
+      <edge id="518" source="FI:Finland" target="SG:Singapore" weight="nan" />
+      <edge id="519" source="FI:Finland" target="SE:Sweden" weight="4862.0" />
+      <edge id="520" source="FI:Finland" target="BR:Brazil" weight="nan" />
+      <edge id="521" source="FI:Finland" target="KR:South Korea" weight="nan" />
+      <edge id="522" source="FI:Finland" target="CZ:Czech Republic" weight="nan" />
+      <edge id="523" source="FI:Finland" target="CH:Switzerland" weight="431.0" />
+      <edge id="524" source="FI:Finland" target="NZ:New Zealand" weight="nan" />
+      <edge id="525" source="FI:Finland" target="AT:Austria" weight="395.0" />
+      <edge id="526" source="FI:Finland" target="HK:Hong Kong SAR" weight="nan" />
+      <edge id="527" source="FI:Finland" target="IE:Ireland" weight="nan" />
+      <edge id="528" source="FI:Finland" target="TR:Turkey" weight="nan" />
+      <edge id="529" source="SE:Sweden" target="JP:Japan" weight="1935.0" />
+      <edge id="530" source="SE:Sweden" target="DK:Denmark" weight="223081.0" />
+      <edge id="531" source="SE:Sweden" target="RU:Russia" weight="8519.0" />
+      <edge id="532" source="SE:Sweden" target="PT:Portugal" weight="89.0" />
+      <edge id="533" source="SE:Sweden" target="NO:Norway" weight="141074.0" />
+      <edge id="534" source="SE:Sweden" target="FR:France" weight="10200.0" />
+      <edge id="535" source="SE:Sweden" target="DE:Germany" weight="75120.0" />
+      <edge id="536" source="SE:Sweden" target="GB:United Kingdom" weight="57156.0" />
+      <edge id="537" source="SE:Sweden" target="US:United States" weight="123108.0" />
+      <edge id="538" source="SE:Sweden" target="IT:Italy" weight="1472.0" />
+      <edge id="539" source="SE:Sweden" target="ES:Spain" weight="2502.0" />
+      <edge id="540" source="SE:Sweden" target="MX:Mexico" weight="479.0" />
+      <edge id="541" source="SE:Sweden" target="AU:Australia" weight="1798.0" />
+      <edge id="542" source="SE:Sweden" target="GR:Greece" weight="56.0" />
+      <edge id="543" source="SE:Sweden" target="CN:China" weight="5096.0" />
+      <edge id="544" source="SE:Sweden" target="CA:Canada" weight="2428.0" />
+      <edge id="545" source="SE:Sweden" target="KY:Cayman Islands" weight="18266.0" />
+      <edge id="546" source="SE:Sweden" target="IN:India" weight="210.0" />
+      <edge id="547" source="SE:Sweden" target="NL:Netherlands" weight="11640.0" />
+      <edge id="548" source="SE:Sweden" target="PL:Poland" weight="12527.0" />
+      <edge id="549" source="SE:Sweden" target="BE:Belgium" weight="3830.0" />
+      <edge id="550" source="SE:Sweden" target="FI:Finland" weight="128939.0" />
+      <edge id="551" source="SE:Sweden" target="LU:Luxembourg" weight="11517.0" />
+      <edge id="552" source="SE:Sweden" target="SG:Singapore" weight="4562.0" />
+      <edge id="553" source="SE:Sweden" target="BR:Brazil" weight="698.0" />
+      <edge id="554" source="SE:Sweden" target="KR:South Korea" weight="404.0" />
+      <edge id="555" source="SE:Sweden" target="CZ:Czech Republic" weight="89.0" />
+      <edge id="556" source="SE:Sweden" target="CH:Switzerland" weight="3656.0" />
+      <edge id="557" source="SE:Sweden" target="NZ:New Zealand" weight="30.0" />
+      <edge id="558" source="SE:Sweden" target="AT:Austria" weight="1820.0" />
+      <edge id="559" source="SE:Sweden" target="HK:Hong Kong SAR" weight="855.0" />
+      <edge id="560" source="SE:Sweden" target="IE:Ireland" weight="1233.0" />
+      <edge id="561" source="SE:Sweden" target="TR:Turkey" weight="465.0" />
+      <edge id="562" source="CH:Switzerland" target="JP:Japan" weight="nan" />
+      <edge id="563" source="CH:Switzerland" target="DK:Denmark" weight="nan" />
+      <edge id="564" source="CH:Switzerland" target="RU:Russia" weight="nan" />
+      <edge id="565" source="CH:Switzerland" target="PT:Portugal" weight="nan" />
+      <edge id="566" source="CH:Switzerland" target="NO:Norway" weight="nan" />
+      <edge id="567" source="CH:Switzerland" target="FR:France" weight="85931.0" />
+      <edge id="568" source="CH:Switzerland" target="DE:Germany" weight="112857.0" />
+      <edge id="569" source="CH:Switzerland" target="GB:United Kingdom" weight="246124.0" />
+      <edge id="570" source="CH:Switzerland" target="US:United States" weight="661872.0" />
+      <edge id="571" source="CH:Switzerland" target="IT:Italy" weight="32165.0" />
+      <edge id="572" source="CH:Switzerland" target="ES:Spain" weight="21065.0" />
+      <edge id="573" source="CH:Switzerland" target="MX:Mexico" weight="nan" />
+      <edge id="574" source="CH:Switzerland" target="AU:Australia" weight="nan" />
+      <edge id="575" source="CH:Switzerland" target="GR:Greece" weight="nan" />
+      <edge id="576" source="CH:Switzerland" target="CN:China" weight="nan" />
+      <edge id="577" source="CH:Switzerland" target="CA:Canada" weight="24510.0" />
+      <edge id="578" source="CH:Switzerland" target="KY:Cayman Islands" weight="41608.0" />
+      <edge id="579" source="CH:Switzerland" target="IN:India" weight="nan" />
+      <edge id="580" source="CH:Switzerland" target="NL:Netherlands" weight="nan" />
+      <edge id="581" source="CH:Switzerland" target="PL:Poland" weight="nan" />
+      <edge id="582" source="CH:Switzerland" target="BE:Belgium" weight="nan" />
+      <edge id="583" source="CH:Switzerland" target="FI:Finland" weight="nan" />
+      <edge id="584" source="CH:Switzerland" target="LU:Luxembourg" weight="50751.0" />
+      <edge id="585" source="CH:Switzerland" target="SG:Singapore" weight="28655.0" />
+      <edge id="586" source="CH:Switzerland" target="SE:Sweden" weight="nan" />
+      <edge id="587" source="CH:Switzerland" target="BR:Brazil" weight="nan" />
+      <edge id="588" source="CH:Switzerland" target="KR:South Korea" weight="nan" />
+      <edge id="589" source="CH:Switzerland" target="CZ:Czech Republic" weight="nan" />
+      <edge id="590" source="CH:Switzerland" target="NZ:New Zealand" weight="nan" />
+      <edge id="591" source="CH:Switzerland" target="AT:Austria" weight="16965.0" />
+      <edge id="592" source="CH:Switzerland" target="HK:Hong Kong SAR" weight="29943.0" />
+      <edge id="593" source="CH:Switzerland" target="IE:Ireland" weight="19904.0" />
+      <edge id="594" source="CH:Switzerland" target="TR:Turkey" weight="nan" />
+      <edge id="595" source="AT:Austria" target="JP:Japan" weight="756.0" />
+      <edge id="596" source="AT:Austria" target="DK:Denmark" weight="966.0" />
+      <edge id="597" source="AT:Austria" target="RU:Russia" weight="nan" />
+      <edge id="598" source="AT:Austria" target="PT:Portugal" weight="720.0" />
+      <edge id="599" source="AT:Austria" target="NO:Norway" weight="996.0" />
+      <edge id="600" source="AT:Austria" target="FR:France" weight="13224.0" />
+      <edge id="601" source="AT:Austria" target="DE:Germany" weight="40717.0" />
+      <edge id="602" source="AT:Austria" target="GB:United Kingdom" weight="16765.0" />
+      <edge id="603" source="AT:Austria" target="US:United States" weight="11066.0" />
+      <edge id="604" source="AT:Austria" target="IT:Italy" weight="14815.0" />
+      <edge id="605" source="AT:Austria" target="ES:Spain" weight="3918.0" />
+      <edge id="606" source="AT:Austria" target="MX:Mexico" weight="141.0" />
+      <edge id="607" source="AT:Austria" target="AU:Australia" weight="545.0" />
+      <edge id="608" source="AT:Austria" target="GR:Greece" weight="181.0" />
+      <edge id="609" source="AT:Austria" target="CN:China" weight="2413.0" />
+      <edge id="610" source="AT:Austria" target="CA:Canada" weight="896.0" />
+      <edge id="611" source="AT:Austria" target="KY:Cayman Islands" weight="1346.0" />
+      <edge id="612" source="AT:Austria" target="IN:India" weight="318.0" />
+      <edge id="613" source="AT:Austria" target="NL:Netherlands" weight="8212.0" />
+      <edge id="614" source="AT:Austria" target="PL:Poland" weight="23277.0" />
+      <edge id="615" source="AT:Austria" target="BE:Belgium" weight="2276.0" />
+      <edge id="616" source="AT:Austria" target="FI:Finland" weight="1095.0" />
+      <edge id="617" source="AT:Austria" target="LU:Luxembourg" weight="3046.0" />
+      <edge id="618" source="AT:Austria" target="SG:Singapore" weight="nan" />
+      <edge id="619" source="AT:Austria" target="SE:Sweden" weight="1759.0" />
+      <edge id="620" source="AT:Austria" target="BR:Brazil" weight="284.0" />
+      <edge id="621" source="AT:Austria" target="KR:South Korea" weight="446.0" />
+      <edge id="622" source="AT:Austria" target="CZ:Czech Republic" weight="63822.0" />
+      <edge id="623" source="AT:Austria" target="CH:Switzerland" weight="7341.0" />
+      <edge id="624" source="AT:Austria" target="NZ:New Zealand" weight="56.0" />
+      <edge id="625" source="AT:Austria" target="HK:Hong Kong SAR" weight="53.0" />
+      <edge id="626" source="AT:Austria" target="IE:Ireland" weight="1382.0" />
+      <edge id="627" source="AT:Austria" target="TR:Turkey" weight="1617.0" />
+      <edge id="628" source="IE:Ireland" target="JP:Japan" weight="141.0" />
+      <edge id="629" source="IE:Ireland" target="DK:Denmark" weight="606.0" />
+      <edge id="630" source="IE:Ireland" target="RU:Russia" weight="nan" />
+      <edge id="631" source="IE:Ireland" target="PT:Portugal" weight="420.0" />
+      <edge id="632" source="IE:Ireland" target="NO:Norway" weight="606.0" />
+      <edge id="633" source="IE:Ireland" target="FR:France" weight="5472.0" />
+      <edge id="634" source="IE:Ireland" target="DE:Germany" weight="1862.0" />
+      <edge id="635" source="IE:Ireland" target="GB:United Kingdom" weight="94948.0" />
+      <edge id="636" source="IE:Ireland" target="US:United States" weight="6274.0" />
+      <edge id="637" source="IE:Ireland" target="IT:Italy" weight="722.0" />
+      <edge id="638" source="IE:Ireland" target="ES:Spain" weight="2875.0" />
+      <edge id="639" source="IE:Ireland" target="MX:Mexico" weight="nan" />
+      <edge id="640" source="IE:Ireland" target="AU:Australia" weight="637.0" />
+      <edge id="641" source="IE:Ireland" target="GR:Greece" weight="84.0" />
+      <edge id="642" source="IE:Ireland" target="CN:China" weight="nan" />
+      <edge id="643" source="IE:Ireland" target="CA:Canada" weight="450.0" />
+      <edge id="644" source="IE:Ireland" target="KY:Cayman Islands" weight="nan" />
+      <edge id="645" source="IE:Ireland" target="IN:India" weight="nan" />
+      <edge id="646" source="IE:Ireland" target="NL:Netherlands" weight="2742.0" />
+      <edge id="647" source="IE:Ireland" target="PL:Poland" weight="nan" />
+      <edge id="648" source="IE:Ireland" target="BE:Belgium" weight="879.0" />
+      <edge id="649" source="IE:Ireland" target="FI:Finland" weight="nan" />
+      <edge id="650" source="IE:Ireland" target="LU:Luxembourg" weight="444.0" />
+      <edge id="651" source="IE:Ireland" target="SG:Singapore" weight="nan" />
+      <edge id="652" source="IE:Ireland" target="SE:Sweden" weight="851.0" />
+      <edge id="653" source="IE:Ireland" target="BR:Brazil" weight="nan" />
+      <edge id="654" source="IE:Ireland" target="KR:South Korea" weight="nan" />
+      <edge id="655" source="IE:Ireland" target="CZ:Czech Republic" weight="nan" />
+      <edge id="656" source="IE:Ireland" target="CH:Switzerland" weight="635.0" />
+      <edge id="657" source="IE:Ireland" target="NZ:New Zealand" weight="13.0" />
+      <edge id="658" source="IE:Ireland" target="AT:Austria" weight="295.0" />
+      <edge id="659" source="IE:Ireland" target="HK:Hong Kong SAR" weight="nan" />
+      <edge id="660" source="IE:Ireland" target="TR:Turkey" weight="nan" />
+      <edge id="661" source="TR:Turkey" target="JP:Japan" weight="59.0" />
+      <edge id="662" source="TR:Turkey" target="DK:Denmark" weight="8.0" />
+      <edge id="663" source="TR:Turkey" target="RU:Russia" weight="386.0" />
+      <edge id="664" source="TR:Turkey" target="PT:Portugal" weight="0.0" />
+      <edge id="665" source="TR:Turkey" target="NO:Norway" weight="12.0" />
+      <edge id="666" source="TR:Turkey" target="FR:France" weight="1021.0" />
+      <edge id="667" source="TR:Turkey" target="DE:Germany" weight="2641.0" />
+      <edge id="668" source="TR:Turkey" target="GB:United Kingdom" weight="3661.0" />
+      <edge id="669" source="TR:Turkey" target="US:United States" weight="5500.0" />
+      <edge id="670" source="TR:Turkey" target="IT:Italy" weight="62.0" />
+      <edge id="671" source="TR:Turkey" target="ES:Spain" weight="69.0" />
+      <edge id="672" source="TR:Turkey" target="MX:Mexico" weight="0.0" />
+      <edge id="673" source="TR:Turkey" target="AU:Australia" weight="14.0" />
+      <edge id="674" source="TR:Turkey" target="GR:Greece" weight="60.0" />
+      <edge id="675" source="TR:Turkey" target="CN:China" weight="7.0" />
+      <edge id="676" source="TR:Turkey" target="CA:Canada" weight="13.0" />
+      <edge id="677" source="TR:Turkey" target="KY:Cayman Islands" weight="267.0" />
+      <edge id="678" source="TR:Turkey" target="IN:India" weight="9.0" />
+      <edge id="679" source="TR:Turkey" target="NL:Netherlands" weight="2181.0" />
+      <edge id="680" source="TR:Turkey" target="PL:Poland" weight="1.0" />
+      <edge id="681" source="TR:Turkey" target="BE:Belgium" weight="262.0" />
+      <edge id="682" source="TR:Turkey" target="FI:Finland" weight="1.0" />
+      <edge id="683" source="TR:Turkey" target="LU:Luxembourg" weight="232.0" />
+      <edge id="684" source="TR:Turkey" target="SG:Singapore" weight="16.0" />
+      <edge id="685" source="TR:Turkey" target="SE:Sweden" weight="11.0" />
+      <edge id="686" source="TR:Turkey" target="BR:Brazil" weight="12.0" />
+      <edge id="687" source="TR:Turkey" target="KR:South Korea" weight="6.0" />
+      <edge id="688" source="TR:Turkey" target="CZ:Czech Republic" weight="0.0" />
+      <edge id="689" source="TR:Turkey" target="CH:Switzerland" weight="221.0" />
+      <edge id="690" source="TR:Turkey" target="NZ:New Zealand" weight="0.0" />
+      <edge id="691" source="TR:Turkey" target="AT:Austria" weight="191.0" />
+      <edge id="692" source="TR:Turkey" target="HK:Hong Kong SAR" weight="2.0" />
+      <edge id="693" source="TR:Turkey" target="IE:Ireland" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>
