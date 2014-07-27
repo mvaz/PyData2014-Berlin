@@ -3,7 +3,7 @@ import numpy as np
 import networkx as nx
 
 def compute_distance(mat):
-    np.sqrt( 2 * np.clip( 1. - mat, 0., 2.) ) 
+    return np.sqrt( 2 * np.clip( 1. - mat, 0., 2.) ) 
 
 def construct_pmfg(df_corr_matrix):
     df_distance = compute_distance(df_corr_matrix) 

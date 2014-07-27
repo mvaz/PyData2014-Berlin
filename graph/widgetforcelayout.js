@@ -295,10 +295,10 @@ require(
 
         _mouseover: function(node) {
             console.log("mouseover");
-            d3.select(node).select(".node").transition()
-              .duration(750)
-              .attr("r", 16);
-            d3.select(node).select(".node").classed("highlighted");
+            // d3.select(node).select(".node").transition()
+            //   .duration(750)
+            //   .attr("r", 16);
+            d3.select(node).select(".node").classed("highlighted", true);
             // d3.select("#counties").classed("Blues")
   // > d3.select("#counties").classed("Blues", false)
   // > d3.select("#counties").classed("Greens", true)
@@ -306,7 +306,7 @@ require(
  
         _mouseout: function (node) {
             d3.select(node).select(".node").classed("highlighted", false);
-            console.log("mouseout");
+            // console.log("mouseout");
 
             // d3.select(node).select(".node").transition()
               // .duration(750)
