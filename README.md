@@ -41,7 +41,7 @@ I am using anaconda as a distribution and following packages
 
 
 
-# Regarding content
+# References
 
 The main inspiration for this talk is from blog posts
 
