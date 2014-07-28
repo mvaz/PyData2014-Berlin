@@ -12,12 +12,12 @@ The talk was supported by some IPython notebooks which you are welcome to try ou
 To get a feeling of what is in there, you can take a look at the static version.
 For running the widgets and playing with the data, you'll need an IPython server running, though.
 
-http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/Bank%20Exposures.ipynb
+[Bank Exposures](http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/Bank%20Exposures.ipynb)
 
-http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/1%20-%20DAX30.ipynb
+[#1 DAX30 - getting and cleansing data](http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/1%20-%20DAX30.ipynb)
 
-http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/2%20-%20DAX30%20Correlations.ipynb
+[#2 DAX30 - historical analysis of correlation matrices](http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/2%20-%20DAX30%20Correlations.ipynb)
 
-http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/3%20-%20DAX30%20Network.ipynb
+[#3 DAX30 - constructing a network from correlation matrices](http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/3%20-%20DAX30%20Network.ipynb)
 
-http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/4%20-%20DAX30%20Baskets.ipynb
+[#4 DAX30 - construct asset baskets from network centrality](http://nbviewer.ipython.org/github/mvaz/PyData2014-Berlin/blob/master/4%20-%20DAX30%20Baskets.ipynb)
