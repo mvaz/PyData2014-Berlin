@@ -39,6 +39,9 @@ I am using anaconda as a distribution and following packages
 - networkx
 - planarity (installed through pip, if you have problems installing it on Mac OS take a look at my fork)
 
+- graphviz
+- pygraphviz
+
 
 
 # References
